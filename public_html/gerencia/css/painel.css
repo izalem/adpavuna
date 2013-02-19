@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	background: rgb(240,240,240);
+	}
+#main_header, #main_banner, #main_footer, #main_nav, #main_body{
+	width: 100%;
+	position: relative;
+	margin: 0;
+	}
+#header, #banner, #footer, #nav, #body{
+	width: 1000px;
+	margin: 0 auto;
+	}
+.clear{
+	clear: both;
+	margin: 0;
+	font: 0 arial;
+	}
+#left, #content, #right{
+	width: 200px;
+	float: left;
+	}
+#content{
+	width: 600px;
+	}
+/* home */
+#lefthome, #righthome{
+	width: 470px;
+	float: left;
+	margin: 0;
+	padding: 0 10px;
+	}
+#righthome{
+	border-left: 1px dotted rgb(210,210,210);
+	}
+/* cabeçalho */
+#logo{
+	width: 300px;
+	float: left;
+	margin: 0;
+	}
+#logo h1{
+	font: bold 18px arial;
+	color: rgb(255,0,0);
+	}
+#entrada{
+	width: 580px;
+	float: right;
+	margin: 0 2px;
+	text-align: right;
+	}
+#entrada form{
+	margin:  2px 0px;
+	border-radius: 8px;
+	background: rgb(230,0,0);
+	text-align: left;
+	padding: 3px 0;
+	}
+#entrada form p{
+	width: 230px;
+	float: left;
+	margin:  0px;
+	padding: 2px 0;
+	font: 11px arial;
+	}
+#entrada form p.difer{
+	width: 60px;
+	margin: 0 0 0;
+	padding: 2px 0;
+	}
+#entrada p label{
+	width: 60px;
+	margin: 0 5px ;
+	}
+#entrada form p input{
+	width: 170px;
+	height: 15px;
+	border-radius: 3px;
+	border: 1px groove rgb(220,210,210);
+	}
+#entrada form p.difer input{
+ 	width: 60px;
+	font: 11px arial;
+	height: 19px;
+	}
+/* bara de navegação */	
+#main_nav{
+		background: rgb(130,30,250);
+	}
+#nav ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+#nav ul li{
+	width: 123px;
+	float: left;
+	padding: 12px 21px;
+	border-right: 1px solid rgb(255,255,255);
+	font: bold 12px arial;
+	text-align: center;
+	}
+#nav ul li a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	}
+	
+/* barra de navegação horizontal */
+#left ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+#left ul li{
+	padding: 10px 0;
+	background: rgb(190,190,190);
+	border-bottom: 1px solid rgb(210,210,210);
+	}
+#left ul li a{
+	text-decoration: none;
+	padding: 0 10px;
+	color: rgb(255,255,255);
+	}

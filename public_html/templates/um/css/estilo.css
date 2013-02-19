@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	background: rgb(220,220,220);
+	}
+#container{
+	width:  960px;
+	margin: 0 auto;
+	border-left: 1px solid rgb(200,200,200);
+	border-right: 1px solid rgb(200,200,200);
+	box-shadow:  -5px -5px -15px rgb(190,190,190), 5px 5px 15px rgb(170,170,170);
+	}
+#topo{
+	width: 100%;
+	background: rgba(90,34,60, 1);
+	}
+#apoio, #conteudo{
+	width: 200px;
+	float: left;
+	}
+#conteudo{
+	width: 760px;
+	}	
+.clear{
+	clear: both;
+	margin: 0;
+	font: 0 arial;
+	}
+/* logotipo */
+#logo{
+	width: 300px;
+	padding: 20px 0;
+	margin: 0;
+	}
+/*  barra de navegação */
+#nav ul{
+	margin: 0;
+	background: rgb(120,50,40);
+	padding: 5px 0;
+	list-style-type: none;
+	}
+#nav ul li{
+	float: left;
+	padding: 5px 20px;
+	}
+	
